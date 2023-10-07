@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+class abc{
+	int x,y;
+	public:
+	void sum();};
+	void abc::sum()
+	{
+		x=10;
+		y=20;
+		cout<<"sum="<<x+y;}
+		void main()
+		{ 
+		abc  ob;
+		ob.sum();
+	getch();}
+	
